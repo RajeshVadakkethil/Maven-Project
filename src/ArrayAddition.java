@@ -5,10 +5,10 @@ public class ArrayAddition {
 	
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter the size of first array ");
+			System.out.println("Enter the size of 1st array ");
 			int first = sc.nextInt();
 			int arr1[] = new int[first];
-			System.out.println("Enter the elements for first array");
+			System.out.println("Enter the element for first array");
 			for(int i=0;i<arr1.length;i++) {
 				arr1[i]=sc.nextInt();
 			}
